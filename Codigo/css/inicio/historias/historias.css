@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+section div{
+	width: 400px;
+	margin-left: 10%;
+	margin-right: 30%;
+	margin-bottom: 60px;
+	background-color:black;
+	border-radius: 12px;
+	padding:0px 5px 0px 5px;
+	transition: all .3s;
+}
+section div:hover{
+
+}
+#comentarios{
+	border-radius: 0;
+	margin-left: 0px;
+	margin-bottom: 0;
+	width: 97%;
+	background-color:white;
+	color:black;
+	display: inline-grid;
+	font-size: 18px;
+}
+
+#likes{
+	margin-left: 40%;
+	display: inline;
+	color:black;
+	background-color: orange;
+	position: relative;
+}
+div h2{
+	font-size: 24px;
+}
+#fecha{
+	color:white;
+	font-size: 12px;
+	display: inline-grid;
+	margin-left: 0;
+	margin-bottom: 0;
+	width: auto;
+}

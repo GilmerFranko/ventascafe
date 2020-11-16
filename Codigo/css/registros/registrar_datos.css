@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+
+#form_nueva_fila_comprar,#form_nueva_fila_vender {
+	position: absolute;
+	height: auto;
+	min-width: 10%;
+	padding: 15px 0px;
+	background-color:#f2f2f2;
+	border-radius: 14px;
+	transition: all .3s;
+	transform: scale(0);
+}
+#form_nueva_fila form{
+
+
+}
+#form_nueva_fila_comprar form div #form_nueva_fila_vender form div{
+	white-space: nowrap;
+	margin-bottom: 200px;
+	width:300px;
+	display: inline;
+
+}
+#form_nueva_fila_comprar form input #form_nueva_fila_vender form input{
+
+	width: 20%;
+	min-width: 10%;
+	margin-bottom: 30px;
+}
+#form_nueva_fila_comprar form p #form_nueva_fila_vender form p{
+	display:inline;
+	width: 120px;
+	font-size: 16px;
+	color :black;
+}
+#form_nueva_fila_comprar form button #form_nueva_fila_vender form button{
+	background-color: orange;
+	color:white;
+	border:0;
+	outline: none;
+	padding: 5px;
+	transition: all .1s;
+	margin-left: 45%;
+}
+#select{
+	background-color: white;
+	font-size: 12px;
+}
+#form_nueva_fila_comprar form button:hover #form_nueva_fila_vender form button:hover{
+	background-color:#FFC300;
+}
+
+#form_nueva_fila_comprar form select #form_nueva_fila_vender form select{
+	background-color: orange;
+	color:white;
+	border:0;
+	outline: none;
+	padding: 5px;
+	transition: all .1s;
+}
+#form_nueva_fila_comprar form select:hover #form_nueva_fila_vender form select:hover{
+	background-color:#FFC300;
+}
+
+#tabla_vender, #tabla_comprar{
+	margin-left: 10%;
+	transition: all .3s;
+	}
+#tabla_vender p, #tabla_comprar p {
+	display: inline;
+	font-size: 12px;
+
+	}
+#tabla_reg_carne span{
+	font-size: 10px
+	}
+	td div p{
+		color:white;
+		background-color: orange;
+		border-radius: 4px;
+		width: 60px;
+		text-align: center;
+	}
+	input{
+		width: 60%;
+		height: 20px;
+		border:none;
+	}
+	#vendido{
+		background-color: white;
+		color:grey;
+		width: 80px;
+	}
+	#vendido:hover{
+		color:orange;
+		cursor:pointer;
+	}
+	.seleccionado:hover{
+		background-color: #3697FF;
+	}
+	#ventanavendido{
+		background-color: white;
+		border-radius: 4px;
+		border:black 2px;
+		position: absolute;
+		left: 30%;
+		top:0;
+		padding: 20px;
+		display: none;
+	}
+	#tabla_vendido{
+		background-color: orange;
+		border-collapse: 2px black;
+	}
+	.opcionvendercomprar{
+	background-color:white;
+	color:blue;
+	border-radius: 8px;
+	padding: 4px;
+	cursor: pointer;
+}
+@media screen and (max-width:500px) {
+	#form_nueva_fila{
+		font-size:12px;
+		top:50px;
+	}
+	#form_nueva_fila{
+	width: auto;
+	max-width: 70%;
+	min-width: 46%;
+	}
+	input{
+		width: 60%;
+		padding: 0;
+		size:20px;
+	}
+	#tabla_reg_carne button{
+		height: 28px;
+		background-color: orange;
+		border:none;
+		color:white;
+	}
+	#tabla_reg_carne{
+		margin-left: 3%;
+		top:50px;
+	}
+	#tabla_reg_carne div{
+		top:40px;
+		width: 75px;
+	}
+	#tabla_reg_carne button{
+		height: 15px;
+	}
+
+#ventanavendido{
+		left: 0%;
+		top:100px;
+		padding: 20px;
+		display: none;
+	}
+}
+

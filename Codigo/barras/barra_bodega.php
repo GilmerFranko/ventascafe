@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/Codigo/css/barras/estilo_barra_lateral.css">
+</head>
+<body>
+	<aside id="barralateral">
+			<blockquote><a href="/Codigo/bodega/apartadoenproduccion.php"><p>Apartado en produccion</p></a></blockquote>
+			<blockquote><a href="/Codigo/registros/busquedas/buscar_por_filtro.php"><p>Buscar</p></a></blockquote>
+			<blockquote><a href="/Codigo/registros/registros_ventas.php"><p>Realizar Movimientos</p></a></blockquote>
+			</aside>
+</body>
+</html>
