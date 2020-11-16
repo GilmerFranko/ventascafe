@@ -9,6 +9,7 @@
 	font-size: 14px;
 	overflow: hidden;
 	width:150px;
+	background-color: whitesmoke;
 }
 aside blockquote a{
 	margin-top: 12px;
@@ -26,14 +27,16 @@ aside blockquote a{
 	}
 	aside blockquote a p {
 		text-align: center;
-		background-color: #272822;
+		font-size:16px;
 		border-radius: 4px;
 		width:80px;
+		margin-top: 20px;
+		margin-bottom: 20px; 
 	}
 aside blockquote a p:hover{	
 	transition: all .1s;
 	text-shadow: #FFFFFF 1px 1px 2px ;
-	color: white;
+	color: gray;
 	transform: scale(1.2);
 }
 #ul_seleccionado p{
